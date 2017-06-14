@@ -9,20 +9,30 @@
 /* Begin PBXBuildFile section */
 		4B5284162C3FCF41813EFE74 /* Pods_medication_reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */; };
 		5B485DE01E7C753D0013B925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485DDF1E7C753D0013B925 /* AppDelegate.swift */; };
-		5B485DE21E7C753D0013B925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485DE11E7C753D0013B925 /* ViewController.swift */; };
+		5B485DE21E7C753D0013B925 /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485DE11E7C753D0013B925 /* MedicationViewController.swift */; };
 		5B485DE51E7C753D0013B925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE31E7C753D0013B925 /* Main.storyboard */; };
 		5B485DE71E7C753D0013B925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE61E7C753D0013B925 /* Assets.xcassets */; };
 		5B485DEA1E7C753D0013B925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE81E7C753D0013B925 /* LaunchScreen.storyboard */; };
+		D4FB5F681EE7C08B0001E13C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5F671EE7C08B0001E13C /* NetworkManager.swift */; };
+		D4FB5F6A1EE8F9740001E13C /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5F691EE8F9740001E13C /* Medication.swift */; };
+		D4FB5F7A1EEE5ACE0001E13C /* MedicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5F791EEE5ACE0001E13C /* MedicationCell.swift */; };
+		D4FB5F7C1EEE5B290001E13C /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5F7B1EEE5B290001E13C /* NSObject+ClassName.swift */; };
+		D4FB5F7F1EEF80B20001E13C /* MedicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5F7E1EEF80B20001E13C /* MedicationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B485DDC1E7C753D0013B925 /* medication-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medication-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B485DDF1E7C753D0013B925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B485DE11E7C753D0013B925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B485DE11E7C753D0013B925 /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
 		5B485DE41E7C753D0013B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B485DE61E7C753D0013B925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B485DE91E7C753D0013B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B485DEB1E7C753D0013B925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FB5F671EE7C08B0001E13C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D4FB5F691EE8F9740001E13C /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medication.swift; path = Models/Medication.swift; sourceTree = "<group>"; };
+		D4FB5F791EEE5ACE0001E13C /* MedicationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationCell.swift; sourceTree = "<group>"; };
+		D4FB5F7B1EEE5B290001E13C /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		D4FB5F7E1EEF80B20001E13C /* MedicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationManager.swift; sourceTree = "<group>"; };
 		D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medication_reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C37ACF78442DAD71F24594 /* Pods-medication-reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medication-reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-medication-reminder/Pods-medication-reminder.release.xcconfig"; sourceTree = "<group>"; };
 		FA4E7FE19B323FB4F24F169D /* Pods-medication-reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medication-reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medication-reminder/Pods-medication-reminder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				5B485DDF1E7C753D0013B925 /* AppDelegate.swift */,
-				5B485DE11E7C753D0013B925 /* ViewController.swift */,
-				5B485DE31E7C753D0013B925 /* Main.storyboard */,
+				D4FB5F7E1EEF80B20001E13C /* MedicationManager.swift */,
+				D4FB5F6B1EE8F9820001E13C /* User Interface */,
+				D4FB5F671EE7C08B0001E13C /* NetworkManager.swift */,
+				D4FB5F6C1EE8F9910001E13C /* Models */,
 				5B485DE61E7C753D0013B925 /* Assets.xcassets */,
+				D4FB5F7B1EEE5B290001E13C /* NSObject+ClassName.swift */,
 				5B485DE81E7C753D0013B925 /* LaunchScreen.storyboard */,
 				5B485DEB1E7C753D0013B925 /* Info.plist */,
 			);
@@ -86,6 +99,24 @@
 				D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4FB5F6B1EE8F9820001E13C /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5B485DE11E7C753D0013B925 /* MedicationViewController.swift */,
+				D4FB5F791EEE5ACE0001E13C /* MedicationCell.swift */,
+				5B485DE31E7C753D0013B925 /* Main.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D4FB5F6C1EE8F9910001E13C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5F691EE8F9740001E13C /* Medication.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B47BAE084B5919EAB6A52C64 /* [CP] Embed Pods Frameworks */ = {
@@ -211,8 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B485DE21E7C753D0013B925 /* ViewController.swift in Sources */,
+				D4FB5F6A1EE8F9740001E13C /* Medication.swift in Sources */,
+				D4FB5F7C1EEE5B290001E13C /* NSObject+ClassName.swift in Sources */,
+				D4FB5F7F1EEF80B20001E13C /* MedicationManager.swift in Sources */,
+				D4FB5F681EE7C08B0001E13C /* NetworkManager.swift in Sources */,
+				5B485DE21E7C753D0013B925 /* MedicationViewController.swift in Sources */,
 				5B485DE01E7C753D0013B925 /* AppDelegate.swift in Sources */,
+				D4FB5F7A1EEE5ACE0001E13C /* MedicationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +412,7 @@
 				5B485DF01E7C753D0013B925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
