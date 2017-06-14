@@ -12,7 +12,6 @@ fileprivate let kRefreshDelay: TimeInterval = 10 * 60
 
 let kFiveMinutes: TimeInterval = 5 * 60
 
-
 extension NSNotification.Name {
     init(_ type: MedicationManager.NotificationType) {
         self = Notification.Name(type.rawValue)
@@ -58,7 +57,6 @@ class MedicationManager {
         
         return nil
     }
-    
     
     func getMedications(completion: @escaping (_ medications: [Medication]?) -> Void) {
         NetworkManager.sharedInstance.getMedications { (medications, error) in
@@ -124,7 +122,7 @@ class MedicationManager {
                 type = .soon
             }
             
-            self.scheduleNotification(medication: medication, notificationType: type)
+            scheduleNotification(medication: medication, notificationType: type)
         }
         
         if shouldRefreshLater {
